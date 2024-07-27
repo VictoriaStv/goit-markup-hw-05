@@ -358,6 +358,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-form-input:focus {
   border-color: var(--iris);
 }
@@ -441,7 +442,9 @@ input[type='checkbox']:focus-visible + .modal-form-desc > .modal-form-checkbox {
   box-shadow: 0 0 0 3px rgb(var(--accent-cl) / 25%);
 }
 .modal-form-checkbox-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-form-link {
   line-height: 133%;
   text-decoration: underline;
