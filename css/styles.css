@@ -787,15 +787,15 @@ input[type='checkbox']:focus-visible + .modal-form-desc > .modal-form-checkbox {
   background-color: var(--green);
 }
 
-.footer-email {
-  width: 453px;
-  padding-left: 80px;
-}
-
-.footer-form-field {
+.footer-email-form {
   display: flex;
   margin-top: 16px;
   gap: 24px;
+}
+
+.footer-email {
+  width: 453px;
+  padding-left: 80px;
 }
 
 .footer-text-subscribe {
@@ -804,6 +804,7 @@ input[type='checkbox']:focus-visible + .modal-form-desc > .modal-form-checkbox {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
+  margin-bottom: 16px;
 }
 
 .footer-form-wrapper {
