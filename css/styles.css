@@ -263,6 +263,7 @@ img {
   visibility: visible;
   transition-delay: 0s;
 }
+
 .modal {
   position: absolute;
   width: 408px;
@@ -281,7 +282,6 @@ img {
 .backdrop.is-open .modal {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-  transition-delay: 400ms;
 }
 
 .modal-close-btn {
